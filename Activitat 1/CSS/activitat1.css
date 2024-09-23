@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: beige;
+}
+
+header {
+    background-image: url("../img/hobbit_bg.jpg");
+    clip-path: polygon(0 0, 100% 0%, 100% 77%, 0 87%);
+    background-size: 100%;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    padding-left: 300px;
+
+}
+
+header .PG-13 {
+    font-size: 13px;
+    background-color: rgb(203, 203, 139);
+    padding: 2px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+}
+
+h3,
+h2 {
+    color: rgb(153, 142, 142);
+}
+
+.texto {
+    color: rgb(70, 70, 70);
+    margin-left: 300px;
+    padding-right: 50px;
+    font-size: 30px;
+    text-align: justify;
+
+}
+
+.cover {
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 50px;
+
+}
+
+footer {
+    margin-left: 300px;
+}
+
+.grid-container {
+    margin-left: 90px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: -50px;
+    font-size: 20px;
+    gap:20px ;
+
+}
+
+.buton2{
+
+position: absolute;
+margin-top: 30px;
+margin-left: 20px;
+}
