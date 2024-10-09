@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+h1 {
+    color: green;
+    text-align: center;
+    text-shadow: 2px 2px 4px yellow;
+
+}
+
+body {
+    background-image: url("../IMG/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+button {
+    margin-top: 10px;
+    font-size: 10px;
+
+}
+
+.grid-container1 {
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    width: 350px;
+    
+    clip-path: circle(40% at 50% 50%);
+    background-color: rgb(2, 71, 2);
+    
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+
+}
+
+.grid-container2 {
+    display: block;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    width: 300px;
+    
+    background-color: green;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    padding-bottom: 40px;
+    padding-top: 60px;
+    
+    text-align: center;
+    font-size: 20px;
+}
+
+.grid-container2 > #jugador_actual {
+    background-color: white;
+    width: 60px;
+ 
+}
+.button,
+.button2 {
+    font-size: 15px;
+    background-color: rgb(66, 109, 195);
+    color: aliceblue;
+    padding: 8px;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+.form2 {
+    padding-bottom: 20px;
+}
+
+.grid-container3 {
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 550px;
+    background-color: green;
+    color: black;
+    padding-bottom: 400px;
+    padding-left: 60px;
+    text-align: center;
+    /* margin-top: -500px; */
+    border-radius: 20px;
+}
+
+.p3 {
+    margin-right: 30px;
+    margin-left: 20px;
+    padding-right: 40px;
+    padding-left: -20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.grid-container3 > #jugadors {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    padding: 30px;
+text-align: center;
+}
+
+.container {
+    width: 50px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+
+}
