@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El joc del penjat</title>
+    <link rel="stylesheet" href="CSS/activitat3.css">
+</head>
+
+<body onload="Inicialitzar()">
+    <header>
+        <h1>EL JOC DEL PENJAT</h1>
+    </header>
+    <main>
+        <div class="left">
+            <img id="imagen" class="imagen" src="IMG/A0.png" alt="">
+            <form id="formulario">
+                <p id="paraula" class="paraula"></p>
+                <form action="">
+                    <input id="letra" class="letra" type="text" placeholder="lletra">
+                    <button id="button" type="button" onclick="Enviar()">ENVIAR</button>
+
+                </form>
+                <p id="paraula_secreta"></p>
+        </div>
+        <div class="right">
+            <h2> LLISTAT DE LLETRES</h2>
+            <p id=lista_letras class="llistat_lletres"></p>
+        </div>
+        <div id="ganador">
+            <p id="fraseencert">!</p>
+            <img id="meme" src="IMG/imagess.jpg" alt="">
+            <br>
+            <button onClick="window.location.reload();" id="button1">Torna a jugar</button>
+
+        </div>
+        <div id="perdedor">
+            <p id="fraseerrada"></p>
+            <img id="meme" src="IMG/60ae5c9db9f42.jpeg" alt="">
+            <br>
+            <button onClick="window.location.reload();" id="button1">Torna a jugar</button>
+
+        </div>
+    </main>
+    <script src="./JS/activitat3.js"></script>
+</body>
+
+</html>
