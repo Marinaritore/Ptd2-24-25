@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  border: 0;
+  border-collapse: collapse;
+}
+
+/* variables definition */
+
+:root {
+
+  /* The designs were created to the following widths: */
+  --mobile_width: 375px;
+  --desktop_width: 1440px;
+
+  /* ### Primary */
+  --dark_cyan: hsl(158, 36%, 37%);
+  --cream: hsl(276, 66%, 28%);
+
+  /* ### Neutral */
+  --very_dark_blue: hsl(212, 21%, 14%);
+  --dark_grayish_blue: hsl(228, 12%, 48%);
+
+  --paragraph_size: 14px;
+}
+
+.montserrat-500 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: grey;
+}
+
+.montserrat-700 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.perfume {
+  font-size: 13px;
+}
+
+.fraunces-700 {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+
+/* PREVIUS STYLE INFO */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 68%, 74%);
+}
+
+body {
+  background-color: rgb(223, 235, 174);
+}
+
+main {
+  border: 2px solid rgb(255, 0, 212);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: var(--mobile_width);
+  margin: auto;
+}
+
+.flex-container {
+
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.divimatge {
+  display: block;
+  width: 100%;
+  border: 2px solid rgb(0, 17, 255);
+
+}
+
+
+
+.texto {
+  display: block;
+  background-color: aliceblue;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid rgb(255, 0, 128);
+  font-size: var(--paragraph_size);
+  margin: 0px;
+  width: 100%;
+}
+
+.precio1 {
+  color: rgb(6, 68, 6);
+  font-size: 30px;
+}
+
+.precio2 {
+  position: absolute;
+  text-decoration: line-through;
+  margin-top: -45px;
+  padding-left: 150px;
+  color: gray;
+}
+
+.buton {
+  display: block;
+  color: aliceblue;
+  background-color: rgb(1, 82, 1);
+  text-align: center;
+  width: 150px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.perfume {
+  font-size: 10px;
+}
+
+.parrafo {
+  color: gray;
+
+}
+
+/* @media (min-width: 1440px) {
+  .flex-container {
+    flex-direction: row;
+    width: 700px;
+  } */
+/* } */
