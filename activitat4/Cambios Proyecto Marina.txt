@@ -1,0 +1,33 @@
+Cambios
+
+- Quitar comas de las clases en el HTML
+- Quitar los br del texto
+- Añadir precio2 con un span dentro del p de precio
+- Añadir clase titulo al nombre del perfume
+
+
+ En el CSS:
+ - Añadir  box-sizing: border-box; en el flex-container y en sus elementos
+
+ - Quitar margin-top en el flex-container
+
+ - En precio2:
+	quitar el padding-left
+	disminuir la fuente
+	vertical-align:text-top;
+
+ - En buton:
+	padding-top:10px;
+ 
+ - En perfume:
+	font-size: 12px;
+	padding: 10px 0px;
+	letter-spacing: 3px;
+
+ - En titulo:
+	font-size:35px;
+	line-height: 32px;
+
+ - En parrafo:
+	padding: 10px;
+  	font-size: var(--paragraph_size);
