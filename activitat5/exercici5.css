@@ -25,7 +25,7 @@ header {
   width: 90%;
   text-align: center;
   padding: 0px;
- margin-left: auto;
+  margin-left: auto;
 }
 
 
@@ -65,12 +65,12 @@ body {
 
 .titulo,
 .subtitulo {
-  font-size: 21px;
+  font-size: 19px;
 }
 
 
 .texto {
-  font-size: 15px;
+  font-size: 13px;
   padding-top: 10px;
   padding-bottom: 40px;
   color: rgb(97, 96, 96);
@@ -87,44 +87,13 @@ body {
 
 .carta {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
-  flex-wrap: wrap;
-  width: 375px;
+  align-items:center ;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-}
 
-.carta-supervisor {
-  margin-top: 55px;
-  background-color: #fff;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 320px;
-  border-top: 5px solid #00bcd4;
-}
-
-.carta-teambuilder {
-  background-color: #fff;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 320px;
-  border-top: 5px solid #ff4081;
-  margin-top: 25px;
-}
-
-.carta-karma {
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 320px;
-  padding: 20px;
-  margin: 10px;
-  border-top: 5px solid #ffc107;
-  margin-top: 25px;
 }
 
 .text {
@@ -132,17 +101,80 @@ body {
   color: rgb(104, 104, 104);
 }
 
+
+
+/*  DEFINIR LA ALTURA DE TODAS LAS TARJETAS  */
+
+
+
+
+.carta-supervisor {
+  display: block;
+  margin-inline: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  height:220px;
+  border-top: 5px solid #00bcd4;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.carta-teambuilder {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 320px;
+  height:220px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  border-top: 5px solid #ff4081;
+
+
+}
+
+.carta-karma {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 320px;
+  height:220px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  padding: 20px;
+  margin: 10px;
+  border-top: 5px solid #ffc107;
+
+}
+
+
 .carta-calculator {
+  display: block;
+  margin-inline: auto;
+  width: 320px;
+  height:220px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 320px;
   padding: 20px;
-  margin: 10px;
   transition: transform 0.3s;
   border-top: 5px solid #3f51b5;
   padding-bottom: -300px;
-  margin-top: 25px;
+
 }
 
 
@@ -176,23 +208,44 @@ h3 {
 
 @media (min-width: 1440px) {
 
-  .carta{
-    flex-direction:row ;
+  .carta {
+    flex-direction: row;
     width: 90%;
   }
 
-  .flex-container {
-flex-direction:row
-    
+  /* .flex-container {
+    flex-direction: row;
+ 
   }
 
-  .carta-supervisor, .carta-calculator, .carta-karma, .carta-teambuilder{
-  
-   width: 375px;
-   height: 250px;
+  .carta-supervisor,
+  .carta-calculator,
+  .carta-karma,
+  .carta-teambuilder {
+
+    width: 375px;
+    height: 230px;
 
   }
-  .carta-supervisor, .carta-calculator{
+
+  .carta-supervisor,
+  .carta-calculator {
     margin-top: 100px;
+
+  }
+
+  .imagen {
+    margin-right: 50px;
+
+  } */
+
+  .titulo,
+  .subtitulo {
+    font-size: 25px;
+  }
+
+  .texto {
+    padding-left: 380px;
+    padding-right: 380px;
   }
 }
